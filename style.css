@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgba(216, 216, 216, 0.591);
+}
+
+.navbar{
+    margin:0xp 10px;
+}
+
+
+.banner-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/banner-image.jpg);
+    background-size: cover;
+}
+
+
+.banner-hero h1 p{
+    color: #dc3545;
+    margin: 0px 10px;
+    font-weight: 500px;
+}
+
+h1{
+    display: flex;
+    background-color: white;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+    word-spacing: 2px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    margin:0px 20px;
+}
+
+.contact-container{
+    height: 100vh;
+    padding: 120px;
+}
+
+
+.order-food{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    color: white;
+}
+
+footer p{
+    margin-top: 20px;
+}
+
+.navbar-brand{
+    color: #dc3545;
+}
